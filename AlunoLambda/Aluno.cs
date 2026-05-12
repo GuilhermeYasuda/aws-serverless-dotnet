@@ -1,7 +1,4 @@
 ﻿using Amazon.DynamoDBv2.DataModel;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AlunoLambda
 {
@@ -16,5 +13,7 @@ namespace AlunoLambda
         public string? Sobrenome { get; set; }
         [DynamoDBProperty("classe")]
         public int? Classe { get; set; }
+        [DynamoDBProperty("pais")]
+        public string? Pais { get; set; }
     }
 }

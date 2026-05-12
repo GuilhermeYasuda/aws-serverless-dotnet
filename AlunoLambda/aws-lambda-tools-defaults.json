@@ -12,5 +12,15 @@
   "function-runtime": "dotnet10",
   "function-memory-size": 512,
   "function-timeout": 30,
-  "function-handler": "AlunoLambda::AlunoLambda.Function::FunctionHandler"
+  "function-handler": "AlunoLambda::AlunoLambda.Function::CreateAlunoAsync",
+  "framework": "net10.0",
+  "function-name": "create-aluno",
+  "package-type": "Zip",
+  "function-role": "arn:aws:iam::470656906332:role/lambda_exec_get-todos-alunos",
+  "function-subnets": "",
+  "function-security-groups": "",
+  "tracing-mode": "PassThrough",
+  "environment-variables": "",
+  "image-tag": "",
+  "function-description": ""
 }
