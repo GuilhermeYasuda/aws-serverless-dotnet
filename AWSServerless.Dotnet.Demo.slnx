@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="AlunoLambda/AlunoLambda.csproj" />
   <Project Path="HelloLambda/HelloLambda.csproj" />
 </Solution>
